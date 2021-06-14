@@ -1,0 +1,25 @@
+{
+  "name": "husky-conflict-hook-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "npx husky-conflict-hook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "husky-conflict-hook": "0.0.2",
+    "lint-staged": "^11.0.0"
+  }
+}
