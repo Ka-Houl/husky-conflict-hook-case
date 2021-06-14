@@ -18,6 +18,8 @@ $ npm i
     }
   },
 ````
+```bash
+
 # step1
 # modify the ./test.js
 
