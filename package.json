@@ -12,13 +12,13 @@
     }
   },
   "lint-staged": {
-    "*": "npx husky-conflict-hook"
+    "*": "husky-conflict-hook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^6.0.0",
+    "husky": "^4.2.5",
     "husky-conflict-hook": "0.0.2",
     "lint-staged": "^11.0.0"
   }
