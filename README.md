@@ -10,13 +10,14 @@ $ npm i
 
 # this case uses husky@^4.2.5
 # its option in package.json is
+```json
 
-#   "husky": {
-#     "hooks": {
-#       "pre-commit": "node script"
-#     }
-#   },
-
+  "husky": {
+    "hooks": {
+      "pre-commit": "node script"
+    }
+  },
+````
 # step1
 # modify the ./test.js
 
