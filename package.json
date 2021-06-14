@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^4.2.5",
-    "husky-conflict-hook": "0.0.2",
+    "husky-conflict-hook": "^0.0.2",
     "lint-staged": "^11.0.0"
   }
 }
